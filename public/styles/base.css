@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Wix Madefor Display', sans-serif;
+
+    --color-gray-300:  rgb(219, 219, 219);
+    --color-gray-100: rgb(226, 226, 226);
+    --color-gray-10: rgb(248, 246, 246);
+    --color-gray-500: rgb(145, 145, 145);
+
+
+    --color-black-300: rgb(30, 26, 23);
+    --color-black-100: rgb(71, 63, 55);
+    --color-black-500: rgb(47, 41, 35);
+
+
+    --color-green-300: rgb(128, 152, 72);
+    --color-green-100: rgb(157, 182, 100);
+    --color-green-500: rgb(102, 122, 57);
+
+
+    --color-orange-300: rgb(207, 92, 54);
+    --color-orange-100: rgb(216, 125, 94);
+    --color-orange-500: rgb(161, 69, 39);
+    --color-orange-10: rgb(223, 146, 120);
+
+    
+
+    --color-beige-300: rgb(136, 111, 104);
+    --color-beige-100: rgb(161, 139, 133);
+    --color-beige-500: rgb(106, 87, 82);
+
+    --color--error-100: rgb(255, 192, 180);
+    --color-error-500: rgb(199, 51, 15);
+
+    --space-1: 0.25rem;
+    --space-2: 0.4rem;
+    --space-4: 1rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+
+    --border-radius-small: 4px;
+    --border-radius-medium: 8px;
+
+    --shadow-medium: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background-color: var(--color-gray-100);
+    color: var(--color-black-300);
+}
+
+main{
+    width: 90%;
+    max-width: 50rem;
+    margin: auto;
+}
+
+ul, ol{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-orange-300);
+}
+
+.btn {
+  cursor: pointer;
+  font: inherit;
+  padding: var(--space-2) var(--space-4);
+  background-color: var(--color-orange-300);
+  color: var(--color-gray-100);
+  border: 1px solid var(--color-orange-100);
+  border-radius: var(--border-radius-medium);
+}
+
+.btn:hover,
+.btn:active {
+    background-color: var(--color-orange-500);
+    border-color: var(--color-orange-300);
+}
